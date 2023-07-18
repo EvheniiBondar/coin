@@ -1,0 +1,706 @@
+html, body {
+    margin: 0;
+    box-sizing: border-box;
+    font-family: Aral Tahoma sans-serif;
+    color: rgba(107,114,128);
+}
+
+h1, h2, h3 {
+   color: black;
+}
+
+.black {
+   color: black;
+}
+.red {
+    color: red;
+}
+
+.orange:hover {
+    color: orange;
+}
+
+a {
+    text-decoration: none;
+}
+
+.green {
+   color: #4eaf0a;
+}
+
+.site-header {
+    width: 100%;
+    border-bottom: 1px solid #ddd;
+    
+}
+
+.first-block {
+    width: 1250px;
+    padding-bottom: 10px;
+    margin-top: 15px;
+    margin-left: 270px;
+    
+}
+
+.logo{
+    width: 100%;
+    height: 70px;
+    border-bottom: 1px solid #ddd;
+
+}
+
+.main-logo {
+    width: 1250px;
+    margin-top: 15px;
+    margin-left: 280px;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+    
+
+}
+
+.block6{
+    display: inline;
+    font-size: 12px;
+    text-align: left;
+    margin-left: 9px;
+    
+}
+
+.language {
+    display: inline-block;
+    margin-left: 90px;
+    text-align: left;
+    font-size: 13px;
+    color: black;
+}
+
+.block3{
+    display: inline-block;
+    padding-left: 10px;
+}
+
+.key {
+    color: orange;
+    background: #fff;
+    width: 80px;
+    height: 30px;
+    border-bottom: 1px solid;
+    border-radius: 8px;
+    border-color: orange;
+    margin-left: 12px;
+    cursor: pointer;
+}
+
+.key:hover {
+    background: rgb(247, 242, 235);
+}
+
+.navigation-one {
+    width: 600px;
+    font-size: 14px;
+    display: inline-block;
+    float: left;
+    position: relative;
+    bottom: 5px;
+}
+
+.navigation-one ul li{
+    list-style: none;
+    display: inline-block;
+}
+
+.navigation-one ul li a {
+    text-decoration: none;
+    list-style: none;
+    color: #4a4a4a;
+    cursor: pointer;
+    margin-right: 15px;
+}
+.navigation-one li a:hover {
+    color: rgb(247, 189, 83);
+}
+
+.login {
+    width: 450px;
+    font-size: 15px;
+    display: inline-block;
+    margin-left: 50px;
+    padding-top: 3px;
+    
+
+}
+
+.black{
+    display: inline-block;
+    left: 80px;
+    bottom: 6px;
+    color: black;
+    padding-left: 15px;
+}
+
+ a:hover{
+    color: orange;
+ }
+
+ .coingecko {
+    width: 125px;
+    display: inline-block;
+    float: left;
+ }
+
+ .signup {
+    font-size: 12px;
+    color: #fff;
+    background: #8dc647;
+    width: 145px;
+    height: 30px;
+    border-bottom: 1px solid;
+    border-radius: 8px;
+    border-color: orange;
+    margin-left: 12px;
+    cursor: pointer;
+ }
+
+ .signup:hover{
+    background: #8ec24e77;
+ }
+
+ .search {
+    width: 85px;
+    display: inline-block;
+    margin-left: 36px;
+ }
+
+ .search input {
+    width: 80px;
+    height: 30px;
+    border-radius: 6px;
+    background: #ebebeb;
+    border-color: #ebebeb;
+ }
+
+ .content {
+    width: 1250px;
+    margin-top: 15px;
+    margin-left: 280px;
+    display: inline-block;
+    float: left;
+    box-sizing: border-box;
+ }
+
+ .navigation-two{
+    width: 1200px;
+    height: 30px;
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+ }
+
+ .navigation-two nav a{
+    font-size: 15px;
+    text-decoration: none;
+    color: rgba(107,114,128);
+    margin-left: 5px;
+    margin-right: 20px;
+    height: 30px;
+    
+ }
+
+ .navigation-two nav a:hover{
+    color: rgba(30, 32, 34, 0.863);
+    border-bottom: 2px solid #525050;
+    padding-bottom: 7px;
+    
+ }
+
+ .navigation-two nav a.active{
+    height: 30px;
+    color: black;
+    border-bottom: 2px solid #8dc647;
+    padding-bottom: 7px;
+ }
+
+ .main-content {
+    width: 1200px;
+    height: 125px;
+    margin-top: 10px;
+    display: inline-block;
+    border-bottom: 1px solid #ddd;
+
+ }
+
+ .main-content h2 {
+    width: 800px;
+    color: black;
+ }
+
+ .static{
+    float: left;
+    display: inline-block;
+    width: 300px;
+    position: relative;
+    left: 750px;
+    bottom: 39px;
+ }
+
+ .checkbox {
+   display: inline-block;
+   width: 200px;
+ }
+
+ .checkbox-inp {
+    position: absolute;
+    opacity: 0;
+    width: 0;
+    height: 0;
+    appearance: none;
+    float: left;
+ }
+
+ .checkbox-inner {
+    display: inline-block;
+    position: relative;
+    font-size: 15px;
+    color: black;
+ }
+
+ .checkbox-inner::before{
+    display: block;
+    content: "";
+    top: 0;
+    left: 0;
+    width: 30px;
+    height: 16px;
+    border-radius: 16px;
+    background: rgb(199, 197, 197);
+    float: left;
+ }
+
+ .checkbox-inner::after {
+    display: block;
+    content: "";
+    position: absolute;
+    width: 10px;
+    height: 10px;
+    border-radius: 15px;
+    background-color: rgb(253, 253, 253);
+    left: 3px;
+    top: 3px;
+ }
+
+ .checkbox-inp:checked+.checkbox-inner::before{
+    background-color: rgb(173, 182, 57);
+}
+
+ .checkbox-inp:checked+.checkbox-inner::after{
+    background-color: white;
+    left: 18px;
+ }
+
+ .hz {
+    position: relative;
+    right: 300px;
+    font-size: 15px;
+ }
+ .hz .orange{
+    color: orange;
+ }
+
+ .checkbox2 {
+    float: right;
+ }
+
+ .block-45 {
+    font-size: 14px;
+    width: 1200px;
+    height: 45px;
+    display: inline-block;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+
+ }
+
+ .number {
+    display: inline-block;
+    width: 20px;
+    height: 20px;
+    font-size: 14px;
+    padding: 15px 20px 5px 20px;
+    color: #4a4a4a;
+ }
+
+ .name-coin {
+    display: inline-block;
+    width: 50px;
+    height: 20px;
+ }
+
+ .prace {
+    display: inline-block;
+    padding-left: 350px;
+ }
+
+ .one-hour{
+    display: inline-block;
+    padding-left: 50px;
+ }
+ .one-day{
+    display: inline-block;
+    padding-left: 50px;
+ }
+ .seven-day{
+    display: inline-block;
+    padding-left: 50px;
+ }
+
+ .volume {
+    display: inline-block;
+    padding-left: 35px;
+ }
+
+ .market {
+    display: inline-block;
+    padding-left: 35px;
+ }
+
+ .last-day {
+    display: inline-block;
+    padding-left: 35px;
+ }
+
+ .block-55 {
+    font-size: 16px;
+    width: 1200px;
+    height: 55px;
+    display: inline-block;
+    cursor: pointer;
+    border-bottom: 1px solid #ddd;
+    vertical-align: auto;
+    
+ }
+
+ .number-inf {
+    display: inline-block;
+    width: 30px;
+    height: 20px;
+    font-size: 16px;
+    padding-top: 18px;
+    color: #4a4a4a;
+ }
+
+ .name-coin-inf {
+    display: inline-block;
+    width: 130px;
+    height: 20px;
+    padding-left: 30px;
+    color: black;
+ }
+
+ .block-55 .name-coin-inf a{
+   text-decoration: none;
+ }
+
+ .prace-inf {
+    display: inline-block;
+    padding-left: 220px;
+    width: 80px;
+    text-align: right;
+ }
+
+ .one-hour-inf {
+    display: inline-block;
+    padding-left: 28px;
+    color: orange;
+    width: 35px;
+    text-align: right;
+ }
+ .one-day-inf {
+    display: inline-block;
+    padding-left: 30px;
+    color: orange;
+    width: 35px;
+    text-align: right;
+ }
+ .seven-day-inf {
+    display: inline-block;
+    padding-left: 25px;
+    color: orange;
+    width: 40px;
+    text-align: right;
+ }
+
+ .volume-inf {
+    display: inline-block;
+    text-align: right;
+    width: 150px;
+ }
+
+ .market-inf {
+    display: inline-block;
+    text-align: right;
+    width: 150px;
+ }
+
+ .last-day-inf {
+    display: inline-block;
+    padding-left: 35px;
+    height: 35px;
+    position: absolute;
+ }
+
+ .little {
+    font-size: 10px;
+    padding-bottom: 4px;
+ }
+
+ .leading-coins {
+   width: 1200px;
+   margin-top: 50px;
+ }
+
+ .content .leading-coins h2{
+   color: black;
+ }
+
+ .leading-coins-main {
+   display: flex;
+ }
+
+ .line-two {
+   display: flex;
+   margin-top: 15px;
+ }
+
+ .leading-coin {
+   display: inline-block;
+   width: 234px;
+   height: 140px;
+   border-radius: 5px;
+   box-shadow: 0px 5px 5px 0px rgb(204, 202, 202);
+   margin-right: 5px;
+   position: relative;
+   cursor: pointer;
+   
+ }
+
+ .photo-leading-coin {
+   position: absolute;
+   width: 37px;
+   height: 37px;
+   padding: 10px;
+   padding-top: 15px;
+   position: absolute;
+ }
+
+ .name-leading-coin {
+   position: absolute;
+   font-size: 12px;
+   padding-left: 43px;
+   padding-top: 12px;
+ }
+
+ .price-leading-coin {
+   position: absolute;
+   font-size: 15px;
+   padding-left: 43px;
+   padding-top: 30px;
+   color: black;
+ }
+
+ .percentage-red {
+   float: right;
+   font-size: 11px;
+   padding-top: 12px;
+   padding-right: 15px;
+   color: red;
+ }
+ .percentage-green {
+   float: right;
+   font-size: 11px;
+   padding-top: 12px;
+   padding-right: 15px;
+   color: green;
+ }
+
+ .sparkline {
+   width: 175px;
+   padding-top: 60px;
+   padding-left: 10px;
+ }
+
+ .additionally {
+   width: 233px;
+   height: 140px;
+   border-radius: 5px;
+ }
+
+ .popular-questions{
+   width: 100%;
+   border-bottom: 1px solid #ddd;
+   
+ }
+
+ .popular-questions-main {
+   width: 1200px;
+   margin-top: 70px;
+   margin-left: 280px;
+   display: inline-block;
+   
+ }
+
+ .popular-questions p {
+   margin-bottom: 35px;
+   font-size: 15px;
+ }
+
+ .popular-questions ul li {
+   font-size: 15px;
+   
+ } 
+
+ .popular-questions .orange{
+   color: orange;
+ }
+
+ .the-line {
+   width: 100%;
+   border-bottom: 1px solid #ddd;
+ }
+
+ .main-footer {
+   display: flex;
+   width: 1200px;
+   height: 490px;
+   margin-top: 20px;
+   margin-left: 280px;
+ }
+
+ .logo-and-descriptions {
+   width: 525px;
+   height: 395px;
+ }
+
+
+ .footer-logo {
+   width: 170px;
+   height: 50px;
+ }
+
+ .logo-two {
+   width: 171px;
+   height: 48px;
+ }
+
+ .about-coingesco {
+   width: 525px;
+   margin-top: 20px;
+   font-size: 14px;
+ }
+
+ .block-150 {
+   float: left;
+   width: 150px;
+   height: 440px;
+   margin-left: 30px;
+   font-size: 15px;
+ }
+
+ .block-150 p{
+   padding: 0px;
+   color: black;
+ }
+
+ .block-150 ul {
+   padding: 0px;
+ }
+
+ .block-150 ul li {
+   text-decoration: none;
+   list-style: none;
+   padding-bottom: 20px;
+ }
+
+ .block-150 ul li a {
+   text-decoration: none;
+    list-style: none;
+    color: rgba(107,114,128);
+    cursor: pointer;
+ }
+
+ .join-us {
+   font-size: 11px;
+   color: #206d32;;
+   background: #73f391;
+   border-radius: 3px;
+ }
+
+ .news-update {
+   width: 100%;
+   border-bottom: 1px solid #ddd;
+   padding-bottom: 30px;
+
+ }
+
+ .main-news-update {
+   width: 1200px;
+   margin-top: 20px;
+   margin-left: 280px;
+ }
+
+ .offer {
+   width: 800px;
+   font-size: 15px;
+   display: inline-block;
+ }
+
+ .offer .black {
+   padding: 0px;
+ }
+
+ .design{
+   width: 400px;
+   
+   float: right;
+   margin-top: 20px;
+ }
+
+ .email {
+   width: 180px;
+   height: 35px;
+   border-radius: 7px;
+   border: 1px solid #ddd;
+   padding-left: 15px;
+ }
+
+ .subscription {
+   width: 110px;
+   height: 38px;
+   margin-left: 10px;
+   border-radius: 7px;
+   background: rgb(12, 226, 12);
+   border: 1px solid white;
+   cursor: pointer;
+   color: white;
+ }
+
+ .subscription:hover {
+   background: green;
+ }
+
+ .warning{
+   width: 1200px;
+   margin-top: 20px;
+   margin-left: 280px;
+   font-size: 15px;
+ }
+
+ .google-appstore{
+   width: 250px;
+   float: right;
+   margin-right: 70px;
+ }
+
+ .rejection{
+   margin-top: 50px;
+ }
